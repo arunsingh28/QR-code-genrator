@@ -1,9 +1,13 @@
 import './App.css';
+import QrCode from './components/QrCode';
 
 function App() {
   return (
     <div className="App">
-      <p>Test</p>
+      <p>Qrcode</p>
+      <QrCode value={
+        'https://www.arunsingh28.me'
+      } />
     </div>
   );
 }
